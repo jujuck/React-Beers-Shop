@@ -4,17 +4,21 @@ import Logo from '../assets/logo.jpeg';
 
 const Nav = () => {
   return (
-    <div>
-      <Link to='/'>
-        <img src={Logo} alt="mon logo" />
-      </Link>
-      <Link to='/'>
-        <p>Home</p>
-      </Link>
-      <Link to='/beers'>
-        <p>Beers</p>
-      </Link>
-    </div>
+    <header className="container">
+      <nav className="row">
+        <Link to='/' className="col-2">
+          <img src={Logo} alt="mon logo" className="w-50" />
+        </Link>
+        <div className="col-4"></div>
+        <Link to='/' className="col-2 m-4 ">
+          <p className="text-white btn btn-dark btn-lg">Home</p>
+        </Link>
+        <Link to='/beers' className="col-2 m-4 ">
+          <p className="text-white btn btn-dark btn-lg">Beers</p>
+        </Link>
+      </nav>
+      <h1>Beers Shop and so more</h1>
+    </header>
   )
 }
 

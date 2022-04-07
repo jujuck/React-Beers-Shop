@@ -11,7 +11,6 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div className="App">
-      <h1>Beers Shop and so more</h1>
       <BrowserRouter>
         <Nav />
         <Routes>
