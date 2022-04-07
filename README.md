@@ -7,10 +7,11 @@ Sur le repo, vous pouvez voir une branche correction. Sur la branche correction,
 Tu trouveras dans le dossier src, le fichier *app.jsx* (Point d'entrée de l'application) avec seulement un titre en h1.
 
 ## Créons nos routes
-- 1/ Commence par ajouter le module de gestiond es route sur React (*npm install react-router*)
+- 1/ Commence par ajouter le module de gestion des route sur React (*npm install react-router-dom*)
 - 2/ Dans *app.js*, ajoute les routes vers tes 2 pages ('/' vers la page `Home` et '/beers' vers la page `Beers`)
 - 3/ Créer les composants React correspondant à tes pages dans un sous-dossier *./pages* dans src avec un titre h1 sur chaque. Joue avec ton url pour vérifer que tout fonctionne
 - 4/ Créer un composant `Nav` dans un sous-dossier *./components*. Tu y placera un logo et tes 2 liens de navigation vers tes pages.
 - 5/ Integre ton composant de navigation dans ton *app.jsx*
+- 6/ Integre le css sur ta navigation
 
 
