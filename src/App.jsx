@@ -6,12 +6,14 @@ import './App.css'
 /** Import des pages */
 import Home from './pages/Home';
 import Beers from './pages/Beers';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
       <h1>Beers Shop and so more</h1>
       <BrowserRouter>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/beers" element={<Beers />} />
