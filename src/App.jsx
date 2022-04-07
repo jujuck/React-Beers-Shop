@@ -1,5 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+/** Import du CSS */
 import './App.css'
+
+/** Import des pages */
+import Home from './pages/Home';
+import Beers from './pages/Beers';
 
 function App() {
   return (
