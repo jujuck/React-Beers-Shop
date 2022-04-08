@@ -13,4 +13,6 @@ Tu trouveras dans le dossier src, le fichier *app.jsx* (Point d'entrée de l'app
 - 4/ Créer un composant `Nav` dans un sous-dossier *./components*. Tu y placera un logo et tes 2 liens de navigation vers tes pages.
 - 5/ Integre ton composant de navigation dans ton *app.jsx*
 
+## Occupons nous de la page d'acceuil
+
 
