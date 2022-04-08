@@ -15,7 +15,7 @@ const home = {
       alt: "my beer and my work, two fusional passion"
     }
   },
-  hops: {
+  malt: {
     title: "Discover our best malt",
     imems: [
       {
@@ -87,3 +87,5 @@ const home = {
     ]
   }
 }
+
+export default home;
