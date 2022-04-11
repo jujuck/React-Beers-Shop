@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+/**Import de données */
+import home from '../data/home';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      {console.log(home)}
+      Home
+    </div>
   )
 }
 
