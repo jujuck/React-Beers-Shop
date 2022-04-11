@@ -6,6 +6,7 @@ import home from '../data/home';
 /** Import des composants */
 import Hero from '../components/Hero';
 import Phylosophie from '../components/Phylosophie';
+import Discovery from '../components/Discovery';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       {console.log(home)}
       <Hero hero={home.hero} />
       <Phylosophie phylosophy={home.phylosophy} />
+      <Discovery malt={home.malt} />
     </main>
   )
 }
