@@ -7,6 +7,7 @@ import home from '../data/home';
 import Hero from '../components/Hero';
 import Phylosophie from '../components/Phylosophie';
 import Discovery from '../components/Discovery';
+import Customers from '../components/Customers';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero hero={home.hero} />
       <Phylosophie phylosophy={home.phylosophy} />
       <Discovery malt={home.malt} />
+      <Customers customer={home.customer} />
     </main>
   )
 }
