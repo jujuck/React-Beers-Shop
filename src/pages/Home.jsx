@@ -8,11 +8,10 @@ import Hero from '../components/Hero';
 
 const Home = () => {
   return (
-    <div>
+    <main>
       {console.log(home)}
-      Home
       <Hero hero={home.hero} />
-    </div>
+    </main>
   )
 }
 

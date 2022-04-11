@@ -1,0 +1,12 @@
+.hero {
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  padding: 10%;
+}
+
+.hero h2,
+.hero h1 {
+  color: black;
+}
