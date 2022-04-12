@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import BeerCard from '../components/BeerCard';
 
@@ -125,10 +125,19 @@ const beer = {
   "contributed_by": "Sam Mason <samjbmason>"
 };
 const Beers = () => {
-  console.log(beer)
+  const [beers, setBeers] = useState([])
+
+  useEffect(() => {
+    fetch('https://api.punkapi.com/v2/beers')
+      .then(res => res.json())
+      .then(data => setBeers(data))
+      .catch(err => console.error(err))
+  }, [])
+
   return (
     <div className='container'>
       <div className="row">
+        {console.log(beers)}
         <BeerCard beer={beer} />
       </div>
     </div>
