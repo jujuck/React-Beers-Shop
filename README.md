@@ -29,5 +29,10 @@ Tu trouveras dans le dossier src, le fichier *app.jsx* (Point d'entrée de l'app
 - 3/ Créer un sous composant avec votre template et importer le dans votre page *Beers.jsx*. Passez lui en props, l'objet.
 - 4/ Créer un state pour mémoriser vos données (Tableau vide par défaut) puis ajouter le useEffect avec votre fetch pour récupérer vos données à partir de l'API, puis mettez à jour votre state.
 - 5/ Dans votre return, utilisez la méthode `.map()` pour boucler sur vos données et rendre votre template pour chaque objet stocké. Pensez à mettre une condition sur la longueur de votre tableau pour ne pas lancer la boucle si vos données ne sont pas chargées.
+- 6/ Ameliorer votre style pour obtenir une belle mise en page
+
+## Allons voir le détail de nos bières.
+1/ Ajoutons un bouton sur nos cartes en ajoutant l'id de notre bière àl'url
+2/ Ajoutons notre route dans *App.jsx* et créons notre nouvelle page.
 
 
