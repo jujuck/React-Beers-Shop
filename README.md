@@ -24,4 +24,10 @@ Tu trouveras dans le dossier src, le fichier *app.jsx* (Point d'entrée de l'app
 - 8/ Pour le formulaire de contact, nous allons de nouveau créer un sous composant *Footer.jsx*. Cependant, nous le voulons dans toutes nos pages. Nous l'intégrerons donc directement dans *App.jsx*, entre le `</Routes >` et `</BrowserRouter >`
 
 ## Alors récupérer nos produits, la page bières
+- 1/ Pour cette page, nous allons fetcher l'API, (cf link <a href="https://punkapi.com/documentation/v2">Mon Api</a>). N'hésitez pas à la tester et à récupérer le premier object pour faire vos tests de mise en page. Mémoriser le dans une constante dans votre fichier *Beers.jsx* en dehors de votre composant React.
+- 2/ A partir des propriétés de cet objet, créer une carte de votre style avec les éléments que vous voulez (Dans le return). Cela va nous servir de template plus tard avec nos données dynamiques.
+- 3/ Créer un sous composant avec votre template et importer le dans votre page *Beers.jsx*. Passez lui en props, l'objet.
+- 4/ Créer un state pour mémoriser vos données (Tableau vide par défaut) puis ajouter le useEffect avec votre fetch pour récupérer vos données à partir de l'API, puis mettez à jour votre state.
+- 5/ Dans votre return, utilisez la méthode `.map()` pour boucler sur vos données et rendre votre template pour chaque objet stocké. Pensez à mettre une condition sur la longueur de votre tableau pour ne pas lancer la boucle si vos données ne sont pas chargées.
+
 
