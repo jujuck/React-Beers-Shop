@@ -17,9 +17,8 @@ const Nav = () => {
           <p className="text-white btn btn-dark btn-lg">Beers</p>
         </Link>
       </nav>
-      <h1>Beers Shop and so more</h1>
     </header>
   )
 }
 
-export default Nav
+export default Nav;
