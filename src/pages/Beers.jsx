@@ -125,7 +125,14 @@ const beer = {
 const Beers = () => {
   console.log(beer)
   return (
-    <div>Beers</div>
+    <div className='container'>
+      <div className="row">
+        <div className="card col-4 rounded shadow">
+          <h2 className="text-center">{beer.name}</h2>
+          <h5>{beer.description}</h5>
+        </div>
+      </div>
+    </div>
   )
 }
 
