@@ -1,5 +1,7 @@
 import React from 'react';
 
+import BeerCard from '../components/BeerCard';
+
 const beer = {
   "id": 1,
   "name": "Buzz",
@@ -127,10 +129,7 @@ const Beers = () => {
   return (
     <div className='container'>
       <div className="row">
-        <div className="card col-4 rounded shadow">
-          <h2 className="text-center">{beer.name}</h2>
-          <h5>{beer.description}</h5>
-        </div>
+        <BeerCard beer={beer} />
       </div>
     </div>
   )
