@@ -137,8 +137,7 @@ const Beers = () => {
   return (
     <div className='container'>
       <div className="row">
-        {console.log(beers)}
-        <BeerCard beer={beer} />
+        {beers.length > 0 && beers.map(beer => <BeerCard beer={beer} />)}
       </div>
     </div>
   )
