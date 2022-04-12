@@ -7,6 +7,7 @@ import './App.css'
 import Home from './pages/Home';
 import Beers from './pages/Beers';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/beers" element={<Beers />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   )
 }
