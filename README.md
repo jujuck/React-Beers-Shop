@@ -32,7 +32,11 @@ Tu trouveras dans le dossier src, le fichier *app.jsx* (Point d'entrée de l'app
 - 6/ Ameliorer votre style pour obtenir une belle mise en page
 
 ## Allons voir le détail de nos bières.
-1/ Ajoutons un bouton sur nos cartes en ajoutant l'id de notre bière àl'url
-2/ Ajoutons notre route dans *App.jsx* et créons notre nouvelle page.
+- 1/ Ajoutons un bouton sur nos cartes en ajoutant l'id de notre bière à l'url. Ajoutons lui un peu de style
+- 2/ Ajoutons notre route dans *App.jsx* et créons notre nouvelle page.
+- 3/ Récupérons le param d'ulr avec useParam et construisons notre requete pour récupérer notre bière. Nous la mémoriserons ensuite dans un state4
+- 4/ Ajout des éléments voulus à la page avec un peu de style
+
+## Congratulations, votre premier site produits sur React
 
 
