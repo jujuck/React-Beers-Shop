@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Beers from './pages/Beers';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import BeerDetail from './pages/BeerDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/beers" element={<Beers />} />
+          <Route path="/beers/:id" element={<BeerDetail />} />
         </Routes>
       </BrowserRouter>
       <Footer />
